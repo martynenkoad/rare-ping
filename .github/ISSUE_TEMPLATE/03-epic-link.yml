@@ -1,0 +1,13 @@
+name: Epic Link
+description: Create an umbrella issue to group related sub-issues.
+title: "[Epic]: "
+labels:
+  - epic-link
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      description: Briefly describe the overall outcome or scope covered by this epic.
+    validations:
+      required: true

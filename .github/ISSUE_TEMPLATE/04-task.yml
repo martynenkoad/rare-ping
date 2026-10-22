@@ -1,0 +1,13 @@
+name: Task
+description: Create a small, straightforward task.
+title: "[Task]: "
+labels:
+  - task
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      description: Briefly describe what needs to be done.
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: Story
+description: Describe functionality to be implemented.
+title: "[Story]: "
+labels:
+  - story
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what needs to be implemented.
+
+  - type: textarea
+    id: functional_requirements
+    attributes:
+      label: Functional requirements
+      description: Describe the required behavior and functionality.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria (AC)
+      description: Define the conditions that must be met for this story to be complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_requirements
+    attributes:
+      label: Technical requirements
+      description: Describe implementation constraints, integrations, or technical considerations.
+    validations:
+      required: true

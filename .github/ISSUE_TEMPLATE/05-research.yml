@@ -1,0 +1,13 @@
+name: Research
+description: Create a research spike with technical or architectural documentation as its output.
+title: "[Research]: "
+labels:
+  - research
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      description: Describe the question to investigate and what needs to be understood.
+    validations:
+      required: true
